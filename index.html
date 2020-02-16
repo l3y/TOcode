@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/61005f2c58.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1100px)" href="css/widescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    
+    <title>TO Code | Learn Programing</title>
+</head>
+<body id="home">
+    <!-- Navigation bar -->
+    <nav id="navbar">
+        <h1 class="logo">
+            <span class="text-primary">
+                <i class="fas fa-book-open"></i> TO
+            </span> Code
+        </h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#what">What</a></li>
+            <li><a href="#who">Who</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Header of main showcase area -->
+    <header id="showcase">
+        <div class="showcase-content">
+            <h1 class="l-heading">
+                Life is just zeros and ones
+            </h1>
+            <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quam inventore cumque iusto facere atque! 
+            </p>
+            <a href="#what" class="btn" id="what">Read More</a>
+        </div>
+    </header>
+    <!-- Section what we provide -->
+    <section id="what" class="bg-light py-1">
+        <div class="container">
+            <h2 class="m-heading text-center">
+                <span class="text-primary">What</span> We Provide
+            </h2>
+            <div class="items">
+                <div class="item">
+                    <i class="fas fa-university fa-2x"></i>
+                    <div><h3>Learn how to Code</h3></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, error.</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-book-reader fa-2x"></i>
+                    <div><h3>Build real life projects</h3></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, error.</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-pencil-alt fa-2x"></i>
+                    <div><h3>Study any time</h3></div>
+                    <p>Our schedule is flexible and will fit anyone elit. Consequatur, errorrrorrror.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section Who we are -->
+    <section id="who"> 
+        <div class="who-img"></div>
+        <div class="who-text bg-dark p-2">
+            <h2 class="m-heading">
+                <span class="text-primary">Who</span> We Are
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere et ipsam qui vero sed ipsa rem laborum, quod 
+                veritatis laboriosam, nesciunt aspernatur asperiores debitis omnis enim inventore illum ratione repellat 
+                iusto blanditiis! Iste commodi quas rem similique soluta delectus fugit accusamus a, nam ipsum enim totam 
+                rerum non nisi modi?
+            </p>  
+            <h3>Our team</h3>
+            <ul class="list">
+                <li>Erra Markelovna: CEO</li>
+                <li>Shanon Jackson: CFO</li>
+                <li>John Johns: Professor, C#,JS,Java developer</li>
+                <li>Kela Ugandi: Professor, Full stack developer</li>
+                <li>Liza Motrovskya: Professor, UI designer</li>
+            </ul>  
+        </div>
+    </section>
+    <!-- section sponsors -->
+    <section id="sponsors" class="py">
+        <div class="container">
+            <h2 class="m-heading text-center">
+                <span class="text-primary">Our</span> Sponsors
+            </h2>
+            <div class="items">
+                <div><img src="./pic/logos/l1.png" alt=""></div>
+                <div><img src="./pic/logos/l2.png" alt=""></div>
+                <div><img src="./pic/logos/l3.png" alt=""></div>
+                <div><img src="./pic/logos/l4.png" alt=""></div>
+                <div><img src="./pic/logos/l5.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <!-- section contact -->
+    <section id="contact">
+        <div class="contact-form bg-primary p-2">
+            <h2 class="m-heading">Contact Us</h2>
+            <p>Please use the form bellow to contact us</p>
+            <form >
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Name">
+                </div>
+            </form>
+            <form >
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Email">
+                </div>
+            </form>
+            <form >
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="phone" name="phone" id="phone" placeholder="Enter Phone">
+                </div>
+            </form>
+            <form >
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea type="message" name="message" id="message" placeholder="Enter Message">
+                    </textarea>
+                </div>
+                <input type="submit" value="Send" class="btn-dark">
+            </form>
+        </div>
+        <div class="map"></div>
+        
+    </section>
+    
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+    <script src="js/main.js"></script>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDb3gE1UxSot7782BHmLMNFYXERnGXGi2E&callback=initMap">
+    </script>
+    
+</body>
+</html>
